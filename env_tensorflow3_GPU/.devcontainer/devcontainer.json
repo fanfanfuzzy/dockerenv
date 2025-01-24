@@ -1,0 +1,16 @@
+{
+  "name": "Tensorflow3_GPU Python",
+  "dockerComposeFile": "compose.yml",
+  "service": "python",
+  "workspaceFolder": "/home/user1/dev",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ],
+      "settings": {
+        "editor.tabSize": 2
+      }
+    }
+  }
+}

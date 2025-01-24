@@ -1,0 +1,10 @@
+services:
+  python:
+    image: scraping/python:1.0
+    build: ./python
+    container_name: 'scraping-python'
+    stdin_open: true
+    tty: true
+    volumes:
+      - ../python:/home/user1/dev
+ 
